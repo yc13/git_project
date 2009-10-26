@@ -15,3 +15,4 @@ both_names <- rbind(my_name, second_name)
 
 qplot(year, prop, data = both_names, geom = "line", colour = name, main = "Popularity of group member names over time")
 ggsave("names.pdf", width = 5, height = 4)
+# sebset with name "Hadley".
